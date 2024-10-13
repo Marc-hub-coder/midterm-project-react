@@ -1,0 +1,29 @@
+.disitemscat{
+  background-color: #d6efd8d7;
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
+
+.dropdown-category {
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    height: 35px;
+    width: 200px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .dropdown-category:hover {
+    background-color: #006e52;
+  }
+  
+  .dropdown-category option {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+  }

@@ -1,0 +1,85 @@
+.UpItem{
+    background-color: #d6efd8d7;
+    border-radius: 20px;
+    padding-bottom: 15px;
+}
+
+.id-num,
+.dropdown-change,
+.new-num{
+    margin-right: 20px;
+}
+
+.id-num,
+.new-num{
+    box-shadow: inset #abacaf 0 0 0 2px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    appearance: none;
+    width: 200px;
+    position: relative;
+    border-radius: 3px;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 100;
+    height: 35px;
+    transition: all .2s ease;
+    text-align: center;
+}
+
+.id-num:hover,
+.new-num:hover{
+    box-shadow: 0 0 0 0 #fff inset, #006e52 0 0 0 2px;
+}
+
+.id-num:focus,
+.new-num:focus{
+    background: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0 #fff inset, #006e52 0 0 0 3px;
+}
+
+.submit-update{
+    height: 35px;
+    width: 200px;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    padding: 7px 16px;
+    color: #ffffff;
+    background: #008060;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset;
+}
+
+.submit-update:hover {
+    background: #006e52;
+}
+
+.dropdown-change {
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    height: 35px;
+    width: 200px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .dropdown-change:hover {
+    background-color: #006e52;
+  }
+  
+  .dropdown-change option {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+  }
